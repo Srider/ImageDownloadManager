@@ -1,0 +1,11 @@
+framework module ImageDownloadManager {
+  umbrella header "ImageDownloadManager.h"
+
+  export *
+  module * { export * }
+}
+
+module ImageDownloadManager.Swift {
+    header "ImageDownloadManager-Swift.h"
+    requires objc
+}
